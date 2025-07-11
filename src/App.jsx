@@ -1,10 +1,16 @@
-
+import { Header, Footer } from "./components"
 
 function App() {
 
   return (
     <>
-     <h1>React Portfolio</h1>
+     <Header/>
+     <main>
+       <div className="container">
+         <h1>React Portfolio</h1>
+       </div>
+     </main>
+     <Footer/>
     </>
   )
 }
