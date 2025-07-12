@@ -1,18 +1,19 @@
-import { Header, Footer } from "./components"
+import { Header, Footer, Home, About } from './components';
 
 function App() {
-
-  return (
-    <>
-     <Header/>
-     <main>
-       <div className="container">
-         <h1>React Portfolio</h1>
-       </div>
-     </main>
-     <Footer/>
-    </>
-  )
+ return (
+  <>
+   <Header />
+   <main>
+    <Home />
+    <div className='container'>
+     <h1>React Portfolio</h1>
+    </div>
+    <About />
+   </main>
+   <Footer />
+  </>
+ );
 }
 
-export default App
+export default App;

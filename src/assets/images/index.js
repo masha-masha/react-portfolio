@@ -4,12 +4,12 @@ import client2 from "./client2.webp";
 import client3 from "./client3.webp";
 import mainImg from "./main-img.webp";
 import portfolio1 from "./portfolio-1.webp";
-import portfolio2 from "./portfolio2.webp";
-import portfolio3 from "./portfolio3.webp";
-import portfolio4 from "./portfolio4.webp";
-import portfolio5 from "./portfolio5.webp";
-import portfolio6 from "./portfolio6.webp";
-import Shape from "./shape.png";
+import portfolio2 from "./portfolio-2.webp";
+import portfolio3 from "./portfolio-3.webp";
+import portfolio4 from "./portfolio-4.webp";
+import portfolio5 from "./portfolio-5.webp";
+import portfolio6 from "./portfolio-6.webp";
+import Shape from "./Shape.png";
 
 
 export {

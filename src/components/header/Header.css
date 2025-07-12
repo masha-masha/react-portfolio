@@ -1,3 +1,27 @@
 .header {
-    font-size: 75px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    transition: 0.6s linear;
+}
+
+.sticky {
+    background: rgb(255, 255, 255, 0.1);
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo {
+    color: var(--first-color);
+    font-weight: 600;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s linear;
+    padding: 18px 0;
 }
