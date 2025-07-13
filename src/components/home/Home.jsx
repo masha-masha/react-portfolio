@@ -3,10 +3,10 @@ import { mainImg } from "../../assets/images";
 
 const Home = () => {
   return (
-    <div className="home">
+    <section className="home" id="home">
       <h2>Home</h2>
       <img src={mainImg} alt="main img" />
-    </div>
+    </section>
   )
 }
 
