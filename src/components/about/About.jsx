@@ -1,13 +1,14 @@
 import { aboutImg } from '../../assets/images';
 import { FaDownload } from "react-icons/fa";
+import SectionTitle from '../sectionTitle/SectionTitle';
 import './About.css';
 
 const About = () => {
  return (
   <section className='about section' id='about'>
    <div className='container flex-center'>
-    <h2 className='inner-title'>About me</h2>
-    <h3 className='inner-second-title'>About me</h3>
+     
+    <SectionTitle name="About me"/>
     <div className='about-wrapper'>
      <div className='about-img'>
       <img src={aboutImg} alt='about' />
