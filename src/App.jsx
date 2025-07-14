@@ -6,9 +6,6 @@ function App() {
    <Header />
    <main>
     <Home />
-    <div className='container'>
-     <h1>React Portfolio</h1>
-    </div>
     <About />
    </main>
    <Footer />
