@@ -1,4 +1,4 @@
-import "./Skills.css"
+import React from 'react'
 
 const Skills = () => {
   return (

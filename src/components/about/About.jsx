@@ -7,8 +7,7 @@ const About = () => {
  return (
   <section className='about section' id='about'>
    <div className='container flex-center'>
-     
-    <SectionTitle name="About me"/>
+      <SectionTitle title="About me" subtitle="About me"/>
     <div className='about-wrapper'>
      <div className='about-img'>
       <img src={aboutImg} alt='about' />
