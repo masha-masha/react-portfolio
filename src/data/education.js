@@ -16,3 +16,5 @@ const education = [
     institution: "Web Graphy, Los Angeles, CA"
  }
 ]
+
+export default education;
