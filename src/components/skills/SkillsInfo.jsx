@@ -3,6 +3,7 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 import Education from "./Education";
 import Awards from "./Awards";
 import Skills from "./Skills";
+import WorkExperience from "./WorkExperience";
 
 const SkillsInfo = () => {
  return (
@@ -31,39 +32,8 @@ const SkillsInfo = () => {
      </div>
     </div>
     <div className="education work-exp">
-     <h3 claaName="work-exp-title">Work & Experience</h3>
-     <div className="skills-info">
-      <div className="experience-card">
-       <div className="upper">
-        <h5></h5>
-        <h3></h3>
-        <span></span>
-       </div>
-       <div className="hr"></div>
-       <h4></h4>
-       <p></p>
-      </div>
-      <div className="experience-card">
-        <div className="upper">
-        <h5></h5>
-        <h3></h3>
-        <span></span>
-       </div>
-       <div className="hr"></div>
-       <h4></h4>
-       <p></p>
-      </div>
-      <div className="experience-card">
-        <div className="upper">
-        <h5></h5>
-        <h3></h3>
-        <span></span>
-       </div>
-       <div className="hr"></div>
-       <h4></h4>
-       <p></p>
-      </div>
-     </div>
+     <h3 className="work-exp-title">Work & Experience</h3>
+    <WorkExperience/>
     </div>
    </div>
   </section>
