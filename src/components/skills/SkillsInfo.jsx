@@ -2,8 +2,9 @@ import "./Skills.css";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import Education from "./Education";
 import Awards from "./Awards";
+import Skills from "./Skills";
 
-const Skills = () => {
+const SkillsInfo = () => {
  return (
   <section className="skills section" id="skills">
    <div className="container flex-center">
@@ -21,43 +22,7 @@ const Skills = () => {
         <Education/>
      <div className="education">
       <h4 className="label">Skills</h4>
-      <ul className="bars">
-       <li className="bar">
-        <div className="info">
-         <span>HTML</span>
-         <span>95%</span>
-        </div>
-        <div className="line html"></div>
-       </li>
-       <li className="bar">
-        <div className="info">
-         <span>CSS</span>
-         <span>85%</span>
-        </div>
-        <div className="line css"></div>
-       </li>
-       <li className="bar">
-        <div className="info">
-         <span>JavaScript</span>
-         <span>85%</span>
-        </div>
-        <div className="line javascript"></div>
-       </li>
-       <li className="bar">
-        <div className="info">
-         <span>JQuery</span>
-         <span>80%</span>
-        </div>
-        <div className="line jquery"></div>
-       </li>
-       <li className="bar">
-        <div className="info">
-         <span>PHP</span>
-         <span>75%</span>
-        </div>
-        <div className="line php"></div>
-       </li>
-      </ul>
+       <Skills/>
      </div>
      <div className="education">
       <h4 className="label">Awards</h4>
@@ -105,4 +70,4 @@ const Skills = () => {
  );
 };
 
-export default Skills;
+export default SkillsInfo;

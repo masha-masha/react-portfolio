@@ -6,7 +6,7 @@ const Awards = () => {
    {awards.map(({ year, title, institution }, index) => (
     <li className='item' key={index}>
      <span className='year'>{year}</span>
-     <p>{title} - {institution}</p>
+     <p><span>{title}</span> - {institution}</p>
     </li>
    ))}
   </ul>
