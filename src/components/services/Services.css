@@ -45,8 +45,13 @@
 
 .learn-more-icon {
     font-size: 14px;
+    margin-left: 5px;
     transition: .3s linear;
-    transform: translateX(10px);
+ 
+}
+
+.service-card:hover .learn-more-icon {
+    transform: translateX(5px);
 }
 
 
@@ -88,7 +93,7 @@
     transform: translateY(0);
 }
 
-.service-modal-body>i {
+.service-modal-body .modal-close-btn {
     position: absolute;
     top: 0;
     right: 0;

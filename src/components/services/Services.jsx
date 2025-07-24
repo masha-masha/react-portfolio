@@ -1,5 +1,4 @@
 import { services } from '../../data/services';
-import ServiceModal from './ServiceModal';
 import ServiceItem from './ServiceItem';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import './Services.css';
