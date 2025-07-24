@@ -3,7 +3,7 @@ import {
  FaPhotoFilm,
  FaFileCode,
  FaAlignLeft,
-} from "react-icons/fa";
+} from "react-icons/fa6";
 
 export const services = [
  {
