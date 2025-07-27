@@ -3,15 +3,15 @@ import { FaPaperPlane } from "react-icons/fa";
 
 const GetInTouch = () => {
  return (
-  <section class='get-in-touch sub-section'>
-   <div class='container flex-center'>
-    <div class='contact-card'>
-     <div class='title'>
-      <h4>LET'S TALK</h4>
+  <section className="get-in-touch sub-section">
+   <div className="container flex-center">
+    <div className="contact-card">
+     <div className="title">
+      <h4>LET"S TALK</h4>
       <h3>ABOUT YOUR</h3>
       <h2>NEXT PROJECT</h2>
      </div>
-     <a href='' class='get-in-touch-link inner-info-link'>
+     <a href="" className="get-in-touch-link inner-info-link">
       Contact me
       <FaPaperPlane/>
      </a>
