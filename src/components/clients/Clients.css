@@ -46,3 +46,10 @@
     font-size: 18px;
 }
 
+
+@media (max-width:980px) {
+    .client-swiper .swiper-slide {
+        flex-direction: column;
+    }
+}
+
