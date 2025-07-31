@@ -97,9 +97,9 @@
     width: 48%;
 }
 
-.contact-btn{
-    display: flex !important;
-    gap: 5px !important;
+button.contact-btn{
+    display: flex ;
+    gap: 5px;
 }
 
 
@@ -122,8 +122,3 @@
     }
 }
 
-@media (max-width:390px) {
-    .inner-title{
-        font-size: 48px;
-    }
-}

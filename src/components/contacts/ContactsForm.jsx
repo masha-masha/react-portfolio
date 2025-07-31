@@ -2,7 +2,7 @@ import { FaPaperPlane } from "react-icons/fa"
 
 const ContactsForm = () => {
   return (
-     <from className="form contact-form">
+     <form className="form contact-form">
        <div className="first-row">
         <input placeholder="Name" type="text" />
        </div>
@@ -17,7 +17,7 @@ const ContactsForm = () => {
         Send Message
         <FaPaperPlane/>
        </button>
-      </from>
+      </form>
   )
 }
 

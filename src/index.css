@@ -229,3 +229,9 @@ main {
   letter-spacing: 1px;
   border-radius: 10px;  
 }
+
+@media (max-width:390px) {
+    .inner-title{
+        font-size: 48px;
+    }
+}

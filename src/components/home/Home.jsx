@@ -31,7 +31,7 @@ const Home = () => {
           <img src={mainImg} alt="main image" />
         </div>
       </div>
-      <a href="#about" class="scroll-down">
+      <a href="#about" className="scroll-down">
         Scroll down
         <FaArrowDownLong/>
       </a>
