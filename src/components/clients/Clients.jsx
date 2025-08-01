@@ -2,7 +2,7 @@ import "./Clients.css";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import { clientsData } from "../../data/clientsData";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y} from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -24,11 +24,11 @@ const Clients = () => {
      >
       {clientsData.map((client) => (
        <SwiperSlide key={client.id}>
-        <div class="swiper-slide swiper-client-block">
-         <div class="client-img">
+        <div className="swiper-slide swiper-client-block">
+         <div className="client-img">
           <img src={client.imgSrc} alt="client1" />
          </div>
-         <div class="client-details">
+         <div className="client-details">
           <p>
            {client.description}
           </p>

@@ -47,9 +47,14 @@
     gap: 30px;
 }
 
+.info-group li {
+    cursor: pointer;
+}
+
 .info-group a {
     text-transform: uppercase;
     padding: 10px;
+
 }
 
 .follow-group a {

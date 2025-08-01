@@ -3,8 +3,7 @@ import { infoLinks, followLinks } from "../../data/footerData";
 import FooterLinkGroup from "./FooterLinkGroup";
 
 const Footer = () => {
-
-console.log(infoLinks, followLinks)
+const currentYear = new Date().getFullYear();
  return (
   <footer className="footer">
    <div className="container footer-wrapper">
@@ -19,7 +18,7 @@ console.log(infoLinks, followLinks)
     <FooterLinkGroup title="Follow" links={followLinks} isSocial={true}/>
    </div>
    <p className="footer-copyright">
-    © <span className="year">2024</span> by Coding Snow. All rights reserved.
+    © <span className="year">{currentYear}</span> by Coding Snow. All rights reserved.
    </p>
   </footer>
  );
