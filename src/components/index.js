@@ -10,5 +10,6 @@ export {default as SkillsInfo} from "./skills/SkillsInfo";
 export {default as Nav} from "./nav/Nav";
 export {default as SectionTitle} from "./sectionTitle/SectionTitle";
 export { default as GetInTouch} from "./getInTouch/GetInTouch";
+export {default as  ScrollToTop} from "./scrollTop/ScrollTop"
 
 
