@@ -5,8 +5,6 @@ import { FaCircleArrowRight, FaArrowDownLong } from "react-icons/fa6";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react";
 import {
- motionVariants,
- imgVariants,
  slideInVariants,
 } from "../../utils/animation";
 
