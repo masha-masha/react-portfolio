@@ -1,6 +1,9 @@
 import ServiceModal from './ServiceModal';
 import { ImArrowRight } from "react-icons/im";
 import { useState } from 'react';
+import { slideInVariants } from '../../utils/animation';
+// eslint-disable-next-line no-unused-vars
+import { motion } from "motion/react";
 
 const ServiceItem = ({ services }) => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -11,8 +14,16 @@ const ServiceItem = ({ services }) => {
 
   return (
     <>
-      { services.map((item, index) => (
-      <li className="services-container" key={index}>
+      {services.map((item, index) => (
+      <motion.li 
+        className="services-container" 
+        key={index}
+        custom={index}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amout: 0.5}}
+        variants={slideInVariants("top", 0.7, 50, true)}
+        >
        <div className="service-card">
         <item.icon className="services-icon"/>
         <h3>{item.title}</h3>
@@ -22,7 +33,7 @@ const ServiceItem = ({ services }) => {
         </div>
        </div>
        <ServiceModal item={item} isActive={activeIndex === index} setActiveIndex={setActiveIndex}/>
-      </li>
+      </motion.li>
      ))}
     </>
    

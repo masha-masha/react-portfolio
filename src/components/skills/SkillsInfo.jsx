@@ -67,7 +67,15 @@ const SkillsInfo = () => {
      </div>
     </div>
     <div className="education work-exp">
-     <h3 className="work-exp-title">Work & Experience</h3>
+     <motion.h3 
+        className="work-exp-title"
+         custom={2}
+         initial="hidden"
+         whileInView="visible"
+         viewport={{ once: false, amout: 0.5}}
+         variants={slideInVariants("top", 0.7, 50, true)}
+     >
+      Work & Experience</motion.h3>
     <WorkExperience/>
     </div>
    </div>
